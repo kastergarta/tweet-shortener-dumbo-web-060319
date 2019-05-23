@@ -1,6 +1,6 @@
 # Write your code here.
 
-def dictionary
+# def dictionary
 dictionary = {
   "too" => "2",
   "to" => "2",
@@ -12,7 +12,7 @@ dictionary = {
   "at" => "@",
   "and" => "&"
 }
-end
+# end
 
 def word_substituter(tweet)
   array = tweet.split
