@@ -15,6 +15,17 @@ dictionary = {
 end
 
 def word_substituter(tweet)
+  dictionary = {
+  "too" => "2",
+  "to" => "2",
+  "two" =>"2",
+  "four" => "4",
+  "for" => "4",
+  "be" => "b",
+  "you" => "u",
+  "at" => "@",
+  "and" => "&"
+}
   array = tweet.split
   array.select do |word|
     if dictionary.keys.include?(word.downcase)
